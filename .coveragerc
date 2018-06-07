@@ -1,0 +1,5 @@
+[run]
+include = geoalert_backend/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
